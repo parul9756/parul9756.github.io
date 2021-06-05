@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+		.span1
+		{
+			margin-left: 400px;
+			margin-right: 300px;
+		}
+		.span2
+		{
+            margin-left: 400px;
+            margin-right: 195px;
+		}
+		.Storage
+		{
+			text-align: center;
+		}
+		.Storage2
+		{
+			margin-left: 620px;
+			width: 120px;
+			height: 30px;
+		}
+		.submit
+		{
+			margin-left: 630px;
+			width: 90px;
+			height: 30px;
+		}
+		h2
+		{
+			margin-left: 30px;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+<h2>Personal details</h2>
+<div>
+	<span class="span1">First Name</span>
+	<span >Last Name</span>
+	<div>
+		<input type="text" name="firstname" class="span2">
+		<input type="text" name="lastname">
+	</div><br><br>
+	<span class="span1">Contact Number</span>
+	<span>E-mail</span>
+	<div>
+		<input type="Number" name="number" class="span2">
+		<input type="text" name="email">
+	</div>
+
+</div>
+<h2>Account Details</h2>
+<div>
+	<span class="span1">Account Number</span>
+	<span>CVV Number</span>
+	<div>
+		<input type="number" name="accountnumber" class="span2">
+		<input type="number" name="cvvnumber">
+	</div><br><br>
+	<div>
+		<p class="Storage">Storage Medium</p>
+		<select class="Storage2">
+			<option>Database</option>
+			<option>Local File</option>
+		</select>
+	</div><br><br>
+	<div>
+		<button type="submit" class="submit">SUBMIT</button>
+	</div>
+</div>
+</body>
+</html>
